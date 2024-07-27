@@ -24,7 +24,6 @@ rm -r "/home/ebrahim/Databases/$Deletdb"
 
 Connect_DB()
 {
-echo "The available databases are: "
 List_DB
 echo "Enter the DB name to connect:"
 read Connectdb
