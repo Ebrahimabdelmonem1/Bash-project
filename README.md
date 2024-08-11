@@ -1,24 +1,5 @@
-#Project name
+DBMS Bash project
 
-*Bash project
+#Usage
 
-#Breif description on the project
-
-*this is the readme file for the bash project we will do in DEPI 
-
-#Table of contents (if the README file is long)
-
-
-#Installation 
-
-*instruction on how to install your project
-
-#Usage 
-
-*examples on usage of project and its importance
-
-#contributing 
-
-*guidelines to contribute your project and develop it (open source projects)
-
-#License
+you can use this project to create Databases and to manage it as you need by adding tables , editing in tables , and more options you will discover by using
