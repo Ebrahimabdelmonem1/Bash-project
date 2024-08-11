@@ -4,21 +4,16 @@
 
 tab_mod()
 {
+clear
 echo "*******************************************************************************************************************"
 
 echo -e "\033[32mPlease choose your operation\033[0m"
 
 echo "********************************************************************************************************************"
-echo "Press "1" to add new table"
-echo "Press "2" to list tables "
-echo "Press "3" to drop table"
-echo "Press "4" to insert into table"
-echo "Press "5" to select from table"
-echo "Press "6" to delete from table"
-echo "Press "7" to update table"
-echo "Press "8" to back to the main menu"
+
 
 while true; do
+    Display_table_opt
     read -p "Enter your num (1-8): " option
     
     
@@ -40,20 +35,20 @@ while true; do
                  Insert_into_Table             
                  ;;
              "5")
-             
+                 Select_Table
                  ;;
              
              "6")
-             
+                 delete_row_from_table
                  ;;
                 
              "7")
-             
+                 Update_Table
                  ;;
              
              "8")
-                 cd /home/ebrahim/bash_project/Bash-project/ #main_menu
-                 ./main_menu.sh
+                 cd /home/ebrahim/bash_project/Bash-project/
+                 ./DBMS_project
                  exit                          
                 
         esac
