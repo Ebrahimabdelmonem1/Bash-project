@@ -5,13 +5,17 @@
 
 Display_main()
 {
-echo -e "\033[32m***********************************************\033[0m"
-echo "*Press '1' to Create Database"
-echo "*Press '2' to List Databases"
-echo "*Press '3' to Connect to Database"
-echo "*Press '4' to Drop Database"
-echo "*Press '5' to exit"
-echo -e "\033[32m***********************************************\033[0m"
+echo -e "\n"
+echo -e "\033[32m#***********************************************#\033[0m"
+echo "#                                               #" 
+echo "#      Press '1' to Create Database             #"
+echo "#      Press '2' to List Databases              #"
+echo "#      Press '3' to Connect to Database         #"
+echo "#      Press '4' to Drop Database               #"
+echo "#      Press '5' to exit                        #"
+echo "#                                               #" 
+echo -e "\033[32m#***********************************************#\033[0m"
+echo -e "\n"
 }
 
 #function to add new database

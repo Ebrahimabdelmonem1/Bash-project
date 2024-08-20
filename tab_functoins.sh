@@ -4,16 +4,20 @@
 
 Display_table_opt()
 {
+echo -e "\n"
 echo -e "\033[32m#********************************************#\033[0m"
-echo "#Press "1" to add new table                             #"
-echo "#Press "2" to list tables                               #"
-echo "#Press "3" to drop table                                #"
-echo "#Press "4" to insert into table                         #"
-echo "#Press "5" to monitor data in table                     #"
-echo "#Press "6" to delete row from table                     #" 
-echo "#Press "7" to update table                              #"
-echo "#Press "8" to back to the main menu                     #"
+echo "#                                            #"
+echo "#   Press "1" to add new table                 #"
+echo "#   Press "2" to list tables                   #"
+echo "#   Press "3" to drop table                    #"
+echo "#   Press "4" to insert into table             #"
+echo "#   Press "5" to monitor data in table         #"
+echo "#   Press "6" to delete row from table         #" 
+echo "#   Press "7" to update table                  #"
+echo "#   Press "8" to back to the main menu         #"
+echo "#                                            #"
 echo -e "\033[32m#********************************************#\033[0m"
+echo -e "\n"
 }
 
 # Function to Add new table
